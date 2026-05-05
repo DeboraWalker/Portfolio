@@ -1,0 +1,221 @@
+html, body {
+    width:100%;
+    height:100%;
+    padding:0;
+    background-color:#ffffff ;}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 150px 3fr 3fr 1fr;
+    grid-template-rows: 300px auto auto auto auto auto auto 50px;
+    grid-template-areas:      
+        'header header header header header'
+        'l title title title r'
+        'l all all all r'
+        'l st second second r'
+        'l sst content content r'
+        'l sst2 content2 content2 r'
+        'l sst3 b1 c1 r'
+        'l sst4 content3 content3 r'
+        'l sst5 b3 c3 r'
+        'l first first c3 r'
+        'l footer footer footer r';
+    gap: 10px;
+}
+
+.box-1 {grid-area: header;
+}
+
+.box-2 {background-color: rgb(205, 175, 150);
+        color: #ffffff;
+        grid-area: title;
+        text-align: left;
+        margin: 0px 0px 0px 0px;
+}
+
+.box-3 {grid-area: all;
+        text-align: center;
+    }
+
+.box-4 {grid-area: st;
+        color:rgb(205, 175, 150);
+        text-align: right;
+        margin: 0px 20px 0px 0px;
+    }
+
+.box-5 { grid-area: first;
+    }
+
+.box-6 { grid-area: second;
+        margin: 23px 0px 0px 0px;
+    }
+
+.box-7 {grid-area: st;
+        color:rgb(205, 175, 150);
+        text-align: right;
+        margin: 0px 20px 0px 0px; 
+    }
+
+.box-10 {grid-area: l;}
+
+.box-11 {grid-area: r;
+}
+
+.box-12 {grid-area: sst;
+        text-align: right;
+        margin: 0px 20px 0px 0px;
+        background-color: rgb(236, 224, 214);
+        }
+
+.box-13 {grid-area: sst2;
+        text-align: right;
+        margin: 10px 20px 0px 0px;
+        }
+
+.box-14 {grid-area: content;
+         margin: 22px 0px 0px 0px;
+       }
+
+.box-15 {grid-area: footer;
+        margin: 10px 0px 0px 0px;}
+
+.box-16{grid-area: content2;   
+    margin: 22px 0px 0px 0px;}
+.box-17{grid-area: c1}
+.box-18{grid-area: sst3}
+
+.box-19{grid-area: content3;        
+     margin: 22px 0px 0px 0px; }
+.box-20{grid-area: c2}
+.box-21{grid-area: sst4;
+        text-align: right;
+        margin: 10px 20px 0px 0px;}
+
+.box-22{grid-area: content2;
+        margin: 22px 0px 0px 0px;}
+
+.box-23{grid-area: sst5;}
+   
+
+header {font-style:initial;
+        font-family: "Montserrat";
+        text-align: right;
+        margin: 50px 70px 0px 0px;
+}
+
+
+h1 {font-size: 500%;
+    color:rgb(205, 175, 150);
+    font-family:"Playfair";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {font-size: 350%;
+    color: rgb(205, 175, 150);
+    font-family: "Alex Brush";
+    font-weight: bold;
+    text-align: center; 
+    line-height: 10pt;
+}
+h3 {background-color: rgb(205, 175, 150);
+    font-family: "Montserrat";
+    letter-spacing: 15px;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+    margin: 0px 0px 0px 50px;
+}
+
+h4 {font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 20pt;
+    line-height: 30pt;
+    color: rgb(205, 175, 150);
+}
+
+h5 {font-family: "Montserrat";
+    font-size: 12pt;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    line-height: 15pt;
+}
+
+h6 { font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 12pt;
+    color: rgb(205, 175, 150);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+   }
+
+
+.slider-a {position: relative;
+width: 100%;
+max-width: 800px;
+aspect-ratio: 4/3;
+overflow: hidden;
+margin: 0px;}
+
+
+    .slider-a img {
+    position: absolute;
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+     opacity: 0;
+         --duration: 120s;
+         --count: 12;
+
+     animation: fadeA calc(var(--duration)) linear infinite;
+        animation-delay: calc(var(--i) * (var(--duration) / var(--count)));
+     animation-play-state: running;
+    }
+
+@keyframes fadeA {
+    0% {opacity: 0;}
+    3% {opacity: 0;}
+    5% {opacity: 1;}
+    25% {opacity: 1;}
+    28% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.slider-b {position: relative;
+width: 100%;
+height: auto;
+aspect-ratio: 4/3;
+overflow: hidden;
+box-shadow: 2px 2px 2px 2px rgb(136, 122, 99);
+border: 1px solid rgb(136, 122, 99);
+}
+
+.slider-b img {
+    position: absolute;
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+     opacity: 0;
+         --duration: 20s;
+         --count: 3;
+
+     animation: fadeB calc(var(--duration)) linear infinite;
+        animation-delay: calc(var(--i) * (var(--duration) / var(--count)));
+     animation-play-state: running;
+}
+
+@keyframes fadeB {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    15% {opacity: 1;}
+    20% {opacity: 0;}
+    100% {opacity: 0;}
+
+}
+
+

@@ -1,0 +1,253 @@
+html, body {
+    width:100%;
+    height:100%;
+    padding:0;
+    background-color:#ffffff ;}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    grid-template-rows: 300px auto auto auto auto auto auto auto auto auto auto auto auto auto 20px;
+    grid-template-areas:      
+        'header header header header header'
+        'l title title title r'
+        'l all all all r'
+        'l st second second r'
+        'l sst content content r'
+        'l sst2 b c r'
+        'l sst3 b1 c1 r'
+        'l sst4 b2 c2 r'
+        'l sst5 content2 content2 r'
+        'l sst6 content3 content3 r'
+        'l sst7 content4 content4 r'
+        'l sst8 content5 content5 r'
+        'l sst9 content6 content6 r'
+        'l first first c3 r'
+        'l footer footer footer r';
+    gap: 10px;
+}
+
+.box-1 {grid-area: header;
+}
+
+.box-2 {background-color: rgb(205, 175, 150);
+        color: #ffffff;
+        grid-area: title;
+        text-align: left;
+        margin: 0px 0px 0px 0px;
+}
+
+.box-3 {grid-area: all;
+        text-align: center;
+    }
+
+.box-4 {grid-area: st;
+        color:rgb(205, 175, 150);
+        text-align: right;
+        margin: 0px 20px 0px 0px;
+    }
+
+.box-5 { grid-area: first;
+    }
+
+.box-6 { grid-area: second;
+        margin: 23px 0px 0px 0px;
+    }
+
+.box-7 {background-color: rgb(205, 175, 150);
+        grid-area: sst; 
+    }
+
+.box-8 {grid-area: b;
+}
+
+.box-9 {grid-area: c;}
+
+.box-10 {grid-area: l;}
+
+.box-11 {grid-area: r;}
+
+.box-12 {grid-area: sst;
+        text-align: right;
+        margin: 0px 20px 0px 0px;
+        }
+
+.box-13 {grid-area: sst2;
+        text-align: right;
+        margin: 0px 20px 0px 0px;
+        }
+
+.box-14 {grid-area: content;
+         margin: 10px 0px 0px 0px;
+       }
+
+.box-15 {grid-area: footer;
+        margin: 10px 0px 0px 0px;}
+
+.box-16{grid-area: b1}
+.box-17{grid-area: c1}
+.box-18{grid-area: sst3}
+
+.box-19{grid-area: b2}
+.box-20{grid-area: c2}
+.box-21{grid-area: sst4;
+        margin:  0px 0px 10px 0px;}
+
+.box-22{grid-area: content2; 
+        margin:  10px 0px 10px 0px;}
+
+.box-23{grid-area: sst5;        
+        text-align: right;
+        margin: 0px 20px 0px 0px; }
+
+ .box-24{grid-area: content3; 
+        margin:  0px 0px 10px 0px;}
+
+
+.box-25{grid-area: sst6;        
+        text-align: right;
+        margin: 0px 20px 0px 0px; }
+
+.box-26{grid-area: content4}
+.box-27{grid-area: sst7;
+        text-align: right;
+        margin: 0px 20px 0px 0px; }
+
+.box-28{grid-area: content5;
+          margin:  0px 0px 10px 0px;}
+
+.box-29{grid-area: sst8;
+        text-align: right;
+        margin: 0px 20px 0px 0px; }
+
+.box-30{grid-area: content6}
+
+.box-31{grid-area: sst9;
+        text-align: right;
+        margin: 0px 20px 0px 0px; }
+
+header {font-style:initial;
+        font-family: "Montserrat";
+        text-align: right;
+        margin: 50px 70px 0px 0px;
+}
+
+.footer{font-family: "Montserrat";
+       color: rgb(205, 175, 150)}
+
+
+h1 {font-size: 500%;
+    color:rgb(205, 175, 150);
+    font-family:"Playfair";
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+h2 {font-size: 350%;
+    color: rgb(205, 175, 150);
+    font-family: "Alex Brush";
+    font-weight: bold;
+    text-align: center; 
+    line-height: 10pt;
+}
+h3 {background-color: rgb(205, 175, 150);
+    font-family: "Montserrat";
+    letter-spacing: 15px;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+    margin: 0px 0px 0px 50px;
+}
+
+h4 {font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 20pt;
+    line-height: 30pt;
+    color: rgb(205, 175, 150);
+}
+
+h5 {font-family: "Montserrat";
+    font-size: 12pt;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+    line-height: 15pt;
+}
+
+h6 { font-family: "Montserrat";
+    font-weight: 300;
+    font-size: 12pt;
+    color: rgb(205, 175, 150);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+   }
+
+
+.slider-a {position: relative;
+width: 100%;
+max-width: 800px;
+aspect-ratio: 4/1;
+overflow: hidden;
+border: 1px solid rgb(136, 122, 99);
+margin: 0px;}
+
+
+    .slider-a img {
+    position: absolute;
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+     opacity: 0;
+         --duration: 60s;
+         --count: 14;
+
+     animation: fadeA calc(var(--duration)) linear infinite;
+        animation-delay: calc(var(--i) * (var(--duration) / var(--count)));
+     animation-play-state: running;
+    }
+
+@keyframes fadeA {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    25% {opacity: 1;}
+    26% {opacity: 0;}
+    100% {opacity: 0;}
+}
+
+.slider-b {position: relative;
+width: 100%;
+height: auto;
+aspect-ratio: 1/1;
+overflow: hidden;
+box-shadow: 2px 2px 2px 2px rgb(136, 122, 99);
+border: 1px solid rgb(136, 122, 99);
+}
+
+.slider-b img {
+    position: absolute;
+    width: 100%;
+     height: 100%;
+     object-fit: cover;
+     top: 0;
+     left: 0;
+     opacity: 0;
+         --duration: 60s;
+         --count: 6;
+
+     animation: fadeB calc(var(--duration)) linear infinite;
+        animation-delay: calc(var(--i) * (var(--duration) / var(--count)));
+     animation-play-state: running;
+}
+
+@keyframes fadeB {
+    0% {opacity: 0;}
+    5% {opacity: 1;}
+    15% {opacity: 1;}
+    17% {opacity: 0;}
+    100% {opacity: 0;}
+
+}
+
+
