@@ -1,0 +1,151 @@
+<DOCTYPE html>
+    <html>
+        <head>
+             <header>                <a href="/Users/deborawalker/Documents/Portfolio/PortfolioGalerie.html"> <button>Galerie</button> </a>
+                <a href="/Users/deborawalker/Documents/Portfolio/PortfolioAboutMe.html"> <button> Über Mich</button></a> 
+            </header>   
+            <title> Portfolio von Debora Walker</title>
+            <link rel="stylesheet" href="PortfolioGalerie.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        </head>
+        <body>
+
+<div class="parent">
+    
+
+       <div class="box-1" > <h1>Portfolio</h1>
+                            <p><h2>von Debora Walker</h2></p> </div> 
+
+        <div class="box-2" ><h3>GALERIE</h3> </div>
+
+        <div class="box-4" ><h4> <b>Grafik</b></h4></div>
+
+        <div class="box-6" >   
+                           <p> <a href="/Users/deborawalker/Documents/Portfolio/PortfolioDeboraWalkerRootsRituals.html"> <button>zum Auftrag Root & Ritual</button> </a></p>
+                            <p> <a href="/Users/deborawalker/Documents/Portfolio/PortfolioDeboraWalkerNeonFields.html"> <button>zum Auftrag Neon Fields</button> </a> </p>
+                      
+         <div class="box-12" >    
+
+              <div class="slider-a">
+                <img src="PortfolioLUMASKIN1.webp" alt="Logo LUMA Skin" style="--i:0"…>
+		        <img src="PortfolioLUMASKIN2.webp" alt="Logo LUMA Skin" style="--i:1"…>
+	            <img src="PortfolioLUMASKIN3.webp" alt="Logo LUMA Skin" style="--i:2"…>
+                <img src="PortfolioLUMASKIN4.webp" alt="Logo LUMA Skin" style="--i:3"…>
+                <img src="PortfolioLUMASKIN1.webp" alt="Logo LUMA Skin" style="--i:4"…>
+		        <img src="PortfolioLUMASKIN2.webp" alt="Logo LUMA Skin" style="--i:5"…>
+	            <img src="PortfolioLUMASKIN3.webp" alt="Logo LUMA Skin" style="--i:6"…>
+                <img src="PortfolioLUMASKIN4.webp" alt="Logo LUMA Skin" style="--i:7"…> 
+                <img src="PortfolioLUMASKIN1.webp" alt="Logo LUMA Skin" style="--i:8"…>
+		        <img src="PortfolioLUMASKIN2.webp" alt="Logo LUMA Skin" style="--i:9"…>
+	            <img src="PortfolioLUMASKIN3.webp" alt="Logo LUMA Skin" style="--i:10"…>
+                <img src="PortfolioLUMASKIN4.webp" alt="Logo LUMA Skin" style="--i:11"…>
+            </div>
+
+           <div class="slider-a">
+                <img src="PortfolioMvdR1.webp" alt="Titelblatt Mies van der Rohe" style="--i:0"…>
+		        <img src="PortfolioMvdR2.webp" alt="Layout Mies van der Rohe" style="--i:1"…>
+	            <img src="PortfolioMvdR3.webp" alt="Layout Mies van der Rohe" style="--i:2"…>
+                <img src="PortfolioMvdR1.webp" alt="Titelblatt Mies van der Rohe" style="--i:3"…>
+		        <img src="PortfolioMvdR2.webp" alt="Layout Mies van der Rohe" style="--i:4"…>
+	            <img src="PortfolioMvdR3.webp" alt="Layout Mies van der Rohe" style="--i:5"…>
+                <img src="PortfolioMvdR1.webp" alt="Titelblatt Mies van der Rohe" style="--i:6"…>
+		        <img src="PortfolioMvdR2.webp" alt="Layout Mies van der Rohe" style="--i:7"…>
+	            <img src="PortfolioMvdR3.webp" alt="Layout Mies van der Rohe" style="--i:8"…>
+                <img src="PortfolioMvdR1.webp" alt="Titelblatt Mies van der Rohe" style="--i:9"…>
+		        <img src="PortfolioMvdR2.webp" alt="Layout Mies van der Rohe" style="--i:10"…>
+	            <img src="PortfolioMvdR3.webp" alt="Layout Mies van der Rohe" style="--i:11"…>
+            </div>
+
+             <div class="slider-a">
+                <img src="PortfolioFarmilo1.webp" alt="Logo Farmilo" style="--i:0"…>
+		        <img src="PortfolioFarmilo2.webp" alt="Logo Farmilo" style="--i:1"…>
+	            <img src="PortfolioFarmilo3.webp" alt="Logo Farmiloe" style="--i:2"…>
+                <img src="PortfolioFarmilo4.webp" alt="Logo Farmilo" style="--i:3"…>
+		        <img src="PortfolioFarmilo5.webp" alt="Logo Farmilo" style="--i:4"…>
+	            <img src="PortfolioFarmilo6.webp" alt="LLogo Farmilo" style="--i:5"…>
+                <img src="PortfolioFarmilo1.webp" alt="Logo Farmilo" style="--i:6"…>
+		        <img src="PortfolioFarmilo2.webp" alt="Logo Farmilo" style="--i:7"…>
+	            <img src="PortfolioFarmilo3.webp" alt="Logo Farmiloe" style="--i:8"…>
+                <img src="PortfolioFarmilo4.webp" alt="Logo Farmilo" style="--i:9"…>
+		        <img src="PortfolioFarmilo5.webp" alt="Logo Farmilo" style="--i:10"…>
+	            <img src="PortfolioFarmilo6.webp" alt="LLogo Farmilo" style="--i:11"…>
+            </div>
+
+                                     <div class="slider-a">
+		        <img src="PortfolioSemesterarbeit1.webp" alt="Semesterarbeit" style="--i:0"…>
+	            <img src="PortfolioSemesterarbeit2.webp" alt="Semesterarbeit"  style="--i:1"…>
+		        <img src="PortfolioSemesterarbeit3.webp" alt="Semesterarbeit" style="--i:2"…>
+	            <img src="PortfolioSemesterarbeit4.webp" alt="Semesterarbeit" style="--i:3"…>
+                 <img src="PortfolioSemesterarbeit5.webp" alt="Semesterarbeit" style="--i:4"…>
+	            <img src="PortfolioSemesterarbeit6.webp" alt="Semesterarbeit" style="--i:5"…>
+                  <img src="PortfolioSemesterarbeit7.webp" alt="Semesterarbeit" style="--i:6"…>
+	            <img src="PortfolioSemesterarbeit8.webp" alt="Semesterarbeit" style="--i:7"…>
+		        <img src="PortfolioSemesterarbeit9.webp" alt="Semesterarbeit" style="--i:8"…>
+	            <img src="PortfolioSemesterarbeit10.webp" alt="Semesterarbeit" style="--i:9"…>
+                 <img src="PortfolioSemesterarbeit11.webp" alt="Semesterarbeit" style="--i:10"…>
+	            <img src="PortfolioSemesterarbeit12.webp" alt="Semesterarbeit" style="--i:11"…>
+            </div>
+        
+
+            <div class="slider-a">
+		        <img src="PortfolioGeburtstagskarte1.webp" alt="dreiteilige Geburtstagskarte" style="--i:0"…>
+	            <img src="PortfolioGeburtstagskarte2.webp" alt="dreiteilige Geburtstagskarte" style="--i:1"…>
+		        <img src="PortfolioGeburtstagskarte1.webp" alt="dreiteilige Geburtstagskarte" style="--i:2"…>
+	            <img src="PortfolioGeburtstagskarte2.webp" alt="dreiteilige Geburtstagskarte" style="--i:3"…>
+                 <img src="PortfolioGeburtstagskarte1.webp" alt="dreiteilige Geburtstagskarte" style="--i:4"…>
+	            <img src="PortfolioGeburtstagskarte2.webp" alt="dreiteilige Geburtstagskarte" style="--i:5"…>
+                  <img src="PortfolioGeburtstagskarte1.webp" alt="dreiteilige Geburtstagskarte" style="--i:6"…>
+	            <img src="PortfolioGeburtstagskarte2.webp" alt="dreiteilige Geburtstagskarte" style="--i:7"…>
+		        <img src="PortfolioGeburtstagskarte1.webp" alt="dreiteilige Geburtstagskarte" style="--i:8"…>
+	            <img src="PortfolioGeburtstagskarte2.webp" alt="dreiteilige Geburtstagskarte" style="--i:9"…>
+                 <img src="PortfolioGeburtstagskarte1.webp" alt="dreiteilige Geburtstagskarte" style="--i:10"…>
+	            <img src="PortfolioGeburtstagskarte2.webp" alt="dreiteilige Geburtstagskarte" style="--i:11"…>
+            </div>
+        
+             <div class="slider-a">
+		        <img src="PortfolioParfum1.webp" alt="Vortrag zu «das Parfum», Titelblatt" style="--i:0"…>
+	            <img src="PortfolioParfum2.webp" alt="Vortrag zu «das Parfum», Titelseite"  style="--i:1"…>
+		        <img src="PortfolioParfum3.webp" alt="Vortrag zu «das Parfum», Szene" style="--i:2"…>
+	            <img src="PortfolioParfum4.webp" alt="Vortrag zu «das Parfum», Szene" style="--i:3"…>
+                 <img src="PortfolioParfum5.webp" alt="Vortrag zu «das Parfum», Szene" style="--i:4"…>
+	            <img src="PortfolioParfum6.webp" alt="Vortrag zu «das Parfum», Szene" style="--i:5"…>
+                  <img src="PortfolioParfum7.webp" alt="Vortrag zu «das Parfum», Szene"style="--i:6"…>
+	            <img src="PortfolioParfum8.webp" alt="Vortrag zu «das Parfum», Szene" style="--i:7"…>
+		        <img src="PortfolioParfum9.webp" alt="Vortrag zu «das Parfum», Szene" style="--i:8"…>
+	            <img src="PortfolioParfum10.webp" alt="Vortrag zu «das Parfum», Beschrieb Protagonist" style="--i:9"…>
+                 <img src="PortfolioParfum11.webp" alt="Vortrag zu «das Parfum», Analyse Inhalt" style="--i:10"…>
+	            <img src="PortfolioParfum12.webp" alt="Vortrag zu «das Parfum», Random Facts" style="--i:11"…>
+            </div>
+
+                          <div class="slider-a">
+                <img src="PortfolioGuildSync1.webp" alt="Logo GuildSync" style="--i:0"…>
+		        <img src="PortfolioGuildSync2.webp" alt="Logo GuildSync" style="--i:1"…>
+	            <img src="PortfolioGuildSync3.webp" alt="Logo GuildSync" style="--i:2"…>
+                <img src="PortfolioGuildSync4.webp" alt="Logo GuildSync" style="--i:3"…>
+                <img src="PortfolioGuildSync1.webp" alt="Logo GuildSync" style="--i:4"…>
+		        <img src="PortfolioGuildSync2.webp" alt="Logo GuildSync" style="--i:5"…>
+	            <img src="PortfolioGuildSync3.webp" alt="Logo GuildSync" style="--i:6"…>
+                <img src="PortfolioGuildSync4.webp" alt="Logo GuildSync" style="--i:7"…>  
+              <img src="PortfolioGuildSync1.webp" alt="Logo GuildSync" style="--i:8"…>
+		        <img src="PortfolioGuildSync2.webp" alt="Logo GuildSync" style="--i:9"…>
+	            <img src="PortfolioGuildSync3.webp" alt="Logo GuildSync" style="--i:10"…>
+                <img src="PortfolioGuildSync4.webp" alt="Logo GuildSync" style="--i:11"…>
+            </div>
+
+
+            <h5>   </h5> 
+        </div>    
+      
+
+</div>
+
+        </body>
+    </html>
+</DOCTYPE>
