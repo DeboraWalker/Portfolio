@@ -65,7 +65,6 @@ html, body {
 .box-12 {grid-area: sst;
         text-align: right;
         margin: 0px 20px 0px 0px;
-        background-color: rgb(236, 224, 214);
         }
 
 .box-13 {grid-area: sst2;
@@ -105,7 +104,7 @@ header {font-style:initial;
 }
 
 
-h1 {h1 {font-size: 500%;
+h1 {font-size: 500%;
     color:rgb(82, 85, 95);
     font-family:"Montserrat";
     font-weight: 300;
