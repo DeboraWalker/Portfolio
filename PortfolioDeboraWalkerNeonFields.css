@@ -138,8 +138,9 @@ header {font-style:initial;
 
 
 h1 {font-size: 500%;
-    color:rgb(205, 175, 150);
-    font-family:"Playfair";
+    color:rgb(82, 85, 95);
+    font-family:"Montserrat";
+    font-weight: 300;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
